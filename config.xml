@@ -25,7 +25,7 @@
    <feature name="Device">
     <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-
+    <plugin name="hu.dpal.phonegap.plugins.uniquedeviceid" spec="1.2.0" source="pgb" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
