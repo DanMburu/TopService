@@ -27,7 +27,8 @@
 	
 	setTimeout(function(){ 
 	alert("Hello"); 
-		alert(device.uuid);
+	window.plugins.uniqueDeviceID.get(success, fail);
+		
 	}, 3000);
 
     </script>
