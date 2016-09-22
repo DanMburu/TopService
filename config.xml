@@ -17,7 +17,7 @@
     
     <access origin="*" />
 	
-	<preference name="phonegap-version" value="3.7.0" /> 
+	<!-- <preference name="phonegap-version" value="3.7.0" /> -->
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="Notification">
         <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
@@ -26,6 +26,7 @@
     <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
     <plugin name="hu.dpal.phonegap.plugins.uniquedeviceid" spec="1.2.0" source="pgb" />
+	
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />

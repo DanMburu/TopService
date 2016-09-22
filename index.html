@@ -4,6 +4,7 @@
     <title>Device Properties Example</title>
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	<script type="text/javascript" charset="utf-8" src="deviceinformation.js"></script>
     <script type="text/javascript" charset="utf-8">
 
     // Wait for device API libraries to load
@@ -24,7 +25,10 @@
 		{
 			alert('uuid:'+uuid);
 		};
-	
+	function fail()
+		{
+			alert('Failed');
+		};
 	setTimeout(function(){ 
 	alert("Hello"); 
 	window.plugins.uniqueDeviceID.get(success, fail);
